@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.main{
+    display: flex;
+}
+
+.c1{
+    margin: 70px;
+    height: 300px;
+    width: 500px;
+}
+
+.c3{
+    margin: 70px;
+    height: 300px;
+    width: 450px;
+}
+
+.s-course{
+    margin-top: 60px;
+}
+
+.show{
+    width: 350px;
+    height: 40px;
+}
+
+.c2{
+    margin: 70px;
+    width: 750px;
+}
+
+.c4{
+    margin: 70px;
+    width: 750px;
+}
+
+.overlay{
+    font-size: 22px;
+    position: absolute;
+    top:-25px;
+    left: 120px;
+}
+
+.overlay-2{
+    font-size: 26px;
+    position: absolute;
+    top:-28px;
+    left: 240px;
+}
+
+.ques{
+    margin-left: 20px;
+    width: 300px;
+}
+
+.options{
+    display: flex;
+}
+
+.opt{
+    margin-left: 20px;
+    width: 130px;
+}
+
+.ans{
+    margin-left: 20px;
+    width: 240px;
+}
+
+.table-responsive{
+    margin-left: 60px;
+}
+
+@media screen and (width<1350px) {
+    .options{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .main{
+        display: block;
+    }
+}
